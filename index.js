@@ -27,3 +27,43 @@ console.log(mernSir);
  const fan = "Table Fan";
  const chari = "Computer chair";
  const pen = "Red Pen";
+
+
+
+ //  Interaction ,
+ // Promt , alert , confirm 
+
+ //const idAdult = confirm("are you adult ?");
+
+
+
+ /*const name = prompt("whats your name");
+ console.log(name);
+
+*/
+
+//alert("hello world");
+
+// statement (switch // if else)
+
+
+const gender = prompt("whats your gender? m/f");
+
+if(gender == "m"){
+    console.log(" if/else , you are male");
+}else{
+    console.log("if/else , you are female");
+}
+
+// switch case 
+
+switch(gender){
+    case "m":
+        console.log(" switch , you are male");
+        break;
+    case "f":
+        console.log("switch , you are female");
+        break;
+    default :
+    console.log("switch , i don't know what you are");
+}
