@@ -40,3 +40,13 @@ const comaFromatter = (x)=>{
   const str = String(x);
 
 }
+
+///proper case
+const convertToTitleCase=(str) => {
+    if (!str) {
+        return ""
+    }
+    return str.toLowerCase().replace(/\b\w/g, s => s.toUpperCase());
+  }
+
+  console.log(convertToTitleCase("my name is pujan "));
