@@ -68,7 +68,7 @@ emailCheck("pujanpoudel@.com");
  
 const convertTemp = (tem, type= "C")=>{
     if(type==="F"){
-        console.log(` Cal ${tem} equels to ${(tem * 9 / 5) + 32} fah`);
+        console.log(`Cal ${tem} equels to ${(tem * 9 / 5) + 32} fah`);
     }else{
         console.log(`Fah ${tem} equels to ${(tem-32)* 5/9} cal`);
     }
