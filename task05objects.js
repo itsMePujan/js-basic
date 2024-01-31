@@ -38,3 +38,26 @@ console.log({person});
 //
 
 console.log(person.calAge());
+
+
+const car = {
+    brand: "Toyata",
+    model: "Aygo",
+    year : 2024,
+    engin : "60.9 cu-in",
+    horsePower : 71,
+    torqueNm: 243,
+    body:{
+        lengthCm : 370.0,
+        widthCm:370.0,
+        heightCm:152.5,
+        wheelbaseCm:243.0
+    },
+    breaks:{
+        fontBreaks: "Disc Brakes",
+        cooling: "Ventilated",
+        rearBreaks:"Drum Brakes"
+    }
+}
+
+console.log({car});
