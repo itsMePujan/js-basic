@@ -2,7 +2,6 @@
 
 //CRUD(Create , Read , Update , Delete )
 
-
 const person = {
     name: "Pujan Poudel",
     birthDate: 2057,
@@ -20,7 +19,6 @@ const person = {
         hair:"black",
         eyeColor:"brown",  
     }
-
 }
 
 console.log({person});
@@ -34,11 +32,7 @@ console.log(person.name);
 //delete
 delete person.name;
 console.log({person});
-
-//
-
 console.log(person.calAge());
-
 
 const car = {
     brand: "Toyata",
@@ -61,3 +55,47 @@ const car = {
 }
 
 console.log({car});
+
+//spreed Operator 
+const spreedOperator = {
+     name: "pujan",
+     username: "email@email.com",
+     password: "@1234"
+};
+
+const {password, username, ...naMe} = spreedOperator;
+
+console.log(naMe);
+
+//exercise - object;
+const prod = {
+    prodName : "MacBookPro",
+    price : 10,
+    discount: null ,
+
+    checkDisc:function (){
+            if(this.discount){
+                console.log(`already discounted ${this.discount}% !!`);
+            }else{
+                if(this.price >=100){
+                    console.log("discounted 10% !!!");
+                }else{
+                    console.log("discounted 7%!");
+                }
+            }
+    }
+};
+//prod.discount = 10;
+console.log(prod.checkDisc());
+
+
+/// sorting by number array 
+
+const groups = [
+    {name:"pujan",age:23},
+    {name:"pawan",age:18},
+    {name:"roshan",age:18},
+    {name:"binamra",age:25}
+];
+console.log(groups.sort((firstItem, secondItem) => firstItem.age - secondItem.age));
+
