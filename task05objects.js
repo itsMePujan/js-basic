@@ -1,4 +1,4 @@
-//object (Real Life Objects , propertise , methods)
+//object (Real Life Objects  , methods)
 
 //CRUD(Create , Read , Update , Delete )
 
@@ -9,10 +9,11 @@ const person = {
    // h : 2222,
     isMale: true,
     age: function (){
-         return 2080 - person.birthDate ;
+         return 2080 - this.birthDate ;
     },
-    calAge: ()=>{
-    return 2090 - this.birthDate;
+    calAge: () => {
+        // console.log(person.birthDate);
+        return 2090 - person.birthDate;
     },
     height:5.6,
     facialDetail :{
@@ -36,4 +37,4 @@ console.log({person});
 
 //
 
-console.log(person.birthDate());
+console.log(person.calAge());
