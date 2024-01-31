@@ -9,7 +9,7 @@ const person = {
    // h : 2222,
     isMale: true,
     age: function (){
-         return 2080 - this.birthDate ;
+         return 2080 - person.birthDate ;
     },
     calAge: ()=>{
     return 2090 - this.birthDate;

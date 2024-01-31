@@ -10,3 +10,4 @@ if(time >= 5  && time <=12 ){
 }else{
     alert(`evening ${name}`);
 }
+
