@@ -60,12 +60,21 @@ transition: opacity 0.15s;
 .card {
     margin-top: 10px;
     height: 250px;
-    width: 200px;
+    width: 170px;
     background-color: rgb(236, 233, 233);
     border-radius: 15px;
     box-shadow:  2px 7px 10px rgb(142, 138, 138);
+    cursor: pointer;
 }
 .card:hover{
    background-color:rgb(229, 226, 226);
    box-shadow:  5px 10px 10px rgb(142, 138, 138);
+}
+
+.cardImage{
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height:190px;
+    width:150px;
 }
