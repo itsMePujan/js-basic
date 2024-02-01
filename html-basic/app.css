@@ -1,3 +1,7 @@
+.header{
+    height: 50px;
+    background-color: bisque;
+}
 .x-button{
     background-color: rgb(28, 110, 181);
     color: white;
@@ -6,6 +10,7 @@
     width: 75px;
     font-size: 43;
     border-radius: 18px;
+    margin-top: 5px;
     cursor: pointer;
     transition: background-color 0.75s , box-shadow 0.75px;
    
@@ -49,4 +54,18 @@ transition: opacity 0.15s;
 .join-button:hover{
     background-color: rgba(34, 144, 234, 0.919);
     color: white;
+}
+
+
+.card {
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 15px;
+    box-shadow:  2px 7px 10px rgb(142, 138, 138);
+}
+.card:hover{
+   background-color:rgb(229, 226, 226);
+   box-shadow:  5px 10px 10px rgb(142, 138, 138);
 }
