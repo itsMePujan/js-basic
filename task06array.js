@@ -40,3 +40,33 @@ const slugger = (word) =>
     .replaceAll(" ", "-");
 
 console.log(slugger("my name is pujan poudel"));
+
+//paginations
+
+const pages = ["one", "two", "three", "four", "five", "six"];
+const page = 1;
+const limit = 2;
+
+const pagesN = () => {};
+
+console.log(pagesN());
+/// check username and pass form database , return boolen if username and pass matched in dbs
+
+const dbs = [
+  { username: "pujan", pass: "pass1" },
+  { username: "raktim", pass: "pass2" },
+  { username: "pawan", pass: "pass3" },
+  { username: "binamra", pass: "pass4" },
+];
+
+const checkUser = (user, pass) => {
+  const result = dbs.find((data) => data.username === user);
+  if (!result) {
+    console.log("user not found");
+  } else if (result.username === user && result.pass === pass) {
+    console.log("username and pass found");
+  } else {
+    console.log("username and pass mismatched");
+  }
+};
+console.log(checkUser("pujan", "pass1"));
