@@ -1,3 +1,8 @@
+.card-container{
+    
+    background-color: beige;
+}
+
 .header{
     height: 50px;
     background-color: bisque;
@@ -65,7 +70,7 @@ transition: opacity 0.15s;
     border-radius: 15px;
     box-shadow:  2px 7px 10px rgb(142, 138, 138);
     cursor: pointer;
-}
+} 
 .card:hover{
    background-color:rgb(229, 226, 226);
    box-shadow:  5px 10px 10px rgb(142, 138, 138);
