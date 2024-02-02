@@ -22,6 +22,14 @@ const sumArray = (g) => {
 };
 
 console.log(sumArray(arrySum));
+// using reduce
+
+sumReduce = (numbers) => {
+  return numbers.reduce((pre, cur) => pre + cur, 0);
+};
+
+const sums = sumReduce(arrySum);
+console.log(sums);
 
 ///slugger
 const slugger = (word) =>
